@@ -1,7 +1,7 @@
 import 'package:cinemapedia/domain/entities/movie.dart';
 
-abstract class MovieDatasource{
+abstract class MoviesDatasource{
 
-  Future<Movie> getNowPaling({int page=1});
+  Future<List<Movie>> getNowPaling({int page=1});
 
 }
