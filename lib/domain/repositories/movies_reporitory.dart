@@ -1,7 +1,7 @@
 import 'package:cinemapedia/domain/entities/movie.dart';
 
-abstract class MovieRepository{
+abstract class MoviesRepository{
 
-  Future<Movie> getNowPaling({int page=1});
+  Future<List<Movie>> getNowPalying({int page=1});
 
 }
