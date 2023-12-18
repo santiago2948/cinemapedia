@@ -4,4 +4,10 @@ abstract class MoviesRepository{
 
   Future<List<Movie>> getNowPalying({int page=1});
 
+  Future<List<Movie>> getPopular({int page=1});
+
+  Future<List<Movie>> getUpcoming({int page=1});
+
+  Future<List<Movie>> getTopRated({int page=1});
+
 }
